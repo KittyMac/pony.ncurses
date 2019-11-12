@@ -3,6 +3,9 @@ use "lib:ncurses"
 actor Terminal
 
 	let terminal:Pointer[_Window]
+	
+	fun _tag():USize => 118
+	
 	//let mainWindow:Pointer[_Window]
 	
 	//fun _final() =>

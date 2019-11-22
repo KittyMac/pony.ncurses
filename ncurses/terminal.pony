@@ -61,5 +61,5 @@ actor Terminal
 		
 		
 		_NCurses.mvwprintw(screen, maxY, 0, "Press any key to quit")
-		//@fprintf[I64](@pony_os_stdout[Pointer[U8]](), "%d x %d\n".cstring(), cols, lines)
+		//@fprintf[I32](@pony_os_stdout[Pointer[U8]](), "%d x %d\n".cstring(), cols, lines)
 		*/
